@@ -1,0 +1,35 @@
+{
+  "name": "ecomerce-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:css": "postcss assets/main.css -o assets/main_browser.css",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/body-scroll-lock": "^3.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "classnames": "^2.3.1",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-ticker": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/react": "^17.0.20",
+    "autoprefixer": "^10.3.4",
+    "deepmerge": "^4.2.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^8.0.1",
+    "prettier": "^2.4.0",
+    "tailwindcss": "^2.2.15",
+    "typescript": "^4.4.2"
+  }
+}
